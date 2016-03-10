@@ -1,0 +1,166 @@
+@import http://fonts.googleapis.com/css?family=Raleway;
+/*----------------------------------------------
+CSS Settings For HTML Div ExactCenter
+------------------------------------------------*/
+
+
+#main {
+width:800px;
+margin:50px auto;
+font-family:raleway
+}
+span {
+color:red
+}
+h2 {
+font-family:Helvetica;
+text-align:center;
+color:#2B65EC;
+border-radius:10px 10px 0 0;
+margin:-10px -40px;
+padding:15px
+}
+hr {
+border:0;
+border-bottom:1px solid #ccc;
+margin:10px -40px;
+margin-bottom:30px
+}
+#admin {
+width:300px;
+float:center;
+border-radius:10px;
+font-family:raleway;
+border:2px solid #ccc;
+padding:10px 40px 25px;
+margin-top:70px
+}
+
+input[type=text],input[type=password] {
+width:20%;
+padding:10px;
+margin-top:8px;
+border:1px solid #ccc;
+padding-left:5px;
+font-size:16px;
+font-family:raleway
+}
+input[type=submit]{
+width:10%;
+float:center-left;
+background-color:#0000ff;
+color:#fff;
+border:2px solid #0000ff;
+padding:0px;
+font-size:15px;
+cursor:pointer;
+border-radius:5px;
+margin-bottom:15px;
+}
+
+#profile {
+padding:50px;
+border:1px inset grey;
+border-style: inset;
+font-size:20px;
+background-color:#DCE6F7
+}
+
+.left {
+    width: 20%;
+    float: left;
+    text-align: left;
+    margin-top:15px;
+}
+.right {
+    width: 40%;
+    margin-left: 10px;
+    float:left;
+    text-align:left;
+}
+
+
+
+#logout {
+float:right;
+padding:0px;
+border:inset 3px blue;
+border-style: inset;
+}
+
+#logout2 {
+float:right;
+padding:0px;
+}
+
+#portal {
+float:right;
+padding:0px;
+border:inset 3px blue;
+}
+
+#portal2 {
+float:right;
+padding:0px;
+border:inset 3px blue;
+
+}
+
+a {
+text-decoration:none;
+color:#6495ed
+}
+i {
+color:#6495ed
+}
+
+#questions {
+	float:right;
+	padding:0px;
+	border:dashed 1px gray;
+}
+
+#btnExport
+{
+	display: inline-block;
+	background-color: #76B7DB;
+	padding: 5px;
+	text-decoration: none;
+	color: #FFF;
+}
+
+#table
+{
+	border-collapse: collapse;
+}
+
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:50px;
+    width:50px;
+    float:left;
+    padding:0px;	      
+}
+
+.left1 {
+    width: 30%;
+    float: left;
+    text-align: right;
+    margin-top:15px;
+}
+.right1 {
+    width: 65%;
+    margin-left: 10px;
+    float:left;
+}
+
+.scrollit {
+    overflow:scroll;
+    height:350px; 
+}
+
+tbody div{
+    overflow:scroll;
+    height:700px;
+}
